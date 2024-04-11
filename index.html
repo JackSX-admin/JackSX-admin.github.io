@@ -1,0 +1,89 @@
+<!doctype html><html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/><meta http-equiv="X-UA-Compatible" content="IE=EDGE"/><title>Experience Builder System</title><link rel="shortcut icon" href="site/assets/exb.ico"><base href="/"/><style>html {
+				scrollbar-color: var(--light-600) var(--light-200);
+			}
+			html, body{
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				overflow: hidden;
+			}
+			html.scrollable {
+				overflow: auto;
+			}
+			html.scrollable body {
+				overflow: unset;
+			}
+			html.scrollable body, html.scrollable #app {
+				height: auto;
+			}
+			#loading{
+				width: 100vw;
+				height: 100vh;
+			}
+			#app{
+				width: 100%;
+				height: 100%;
+				display: none;
+			}</style><script type="empty">/**
+			Add this empty script tag can help API module load find the correct "insertPointSibling"
+			*/</script></head><body><div id="loading"><style>body{
+      background-color: #232323;
+    }
+    .loading-content{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+    .exb-glyph-loading{
+      width: 128px;
+      height: 128px;
+      background-image: url("./site/assets/exb-glyph.gif");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }</style><div class="loading-content"><div class="exb-glyph-loading"></div></div></div><div id="app"></div><script type="webpack-options" id="webpack-options">{
+				"mountPath": "/",
+				"isOutOfExb": false,
+				"hostEnv": "prod",
+				"appFolderName": "site",
+				"useStructuralUrl": true,
+				"arcgisJsApiUrl": "https://jacksx-admin.github.io/4.28/",
+				"isDevEdition": true,
+				"buildNumber": "",
+				"isBuilder": false,
+				"isSite": true,
+				"isInPortal": false
+			}</script><script type="systemjs-importmap">{
+	"imports": {
+		"jimu-core": "https://jacksx-admin.github.io/client/dist/jimu-core/index.js",
+		"jimu-core/": "https://jacksx-admin.github.io/client/dist/jimu-core/",
+		"jimu-theme": "https://jacksx-admin.github.io/client/dist/jimu-theme/index.js",
+		"jimu-theme/": "https://jacksx-admin.github.io/client/dist/jimu-theme/",
+		"jimu-ui": "https://jacksx-admin.github.io/client/dist/jimu-ui/index.js",
+		"jimu-ui/": "https://jacksx-admin.github.io/client/dist/jimu-ui/",
+		"jimu-icons/": "https://jacksx-admin.github.io/client/dist/jimu-icons/",
+		"jimu-arcgis": "https://jacksx-admin.github.io/client/dist/jimu-arcgis/index.js",
+		"jimu-arcgis/": "https://jacksx-admin.github.io/client/dist/jimu-arcgis/",
+		"jimu-layouts": "https://jacksx-admin.github.io/client/dist/jimu-layouts/index.js",
+		"jimu-layouts/": "https://jacksx-admin.github.io/client/dist/jimu-layouts/",
+		"jimu-for-builder": "https://jacksx-admin.github.io/client/dist/jimu-for-builder/index.js",
+		"jimu-for-builder/": "https://jacksx-admin.github.io/client/dist/jimu-for-builder/",
+		"widgets/": "https://jacksx-admin.github.io/client/dist/widgets/",
+		"themes/": "https://jacksx-admin.github.io/client/dist/themes/",
+		"builder/": "https://jacksx-admin.github.io/client/dist/builder/",
+		"site/": "https://jacksx-admin.github.io/client/dist/site/",
+		"experience/": "https://jacksx-admin.github.io/client/dist/experience/",
+		"template/": "https://jacksx-admin.github.io/client/dist/template/",
+		"templates/": "https://jacksx-admin.github.io/client/dist/templates/",
+		"calcite-components": "https://jacksx-admin.github.io/client/dist/calcite-components/index.js",
+		"calcite-components/": "https://jacksx-admin.github.io/client/dist/calcite-components/",
+
+		"arcgis-amd-packages/": "https://amd-packages/",
+		"esri/": "https://jacksx-admin.github.io/4.28/esri/"
+	}
+}</script><script src="./jimu-core/init.js"></script></body></html>
